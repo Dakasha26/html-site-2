@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Мой первый сайт</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Вторая страница</h1>
+        <a href="index.html">Главная страница</a>
+
+        <form>
+            <p>
+                <label for="login">Введите логин</label>
+                <br>
+                <input type="text" id="login" name="login">
+            </p>
+            <p>
+                <label for="password">Введите пароль</label>
+                <br>
+                <input type="password" id="password" name="password">
+            </p>
+            <p>
+                <label for="email">Почта</label>
+                <br>
+                <input type="email" id="email" name="email">
+            </p>
+            <p>
+                <label>Возраст</label>
+                <br>
+                <input type="number" min="-5" max="5" step="0.001" id="age" name="age">
+            </p>
+            <p>
+                <label for="ava">Аватарка</label>
+                <br>
+                <input type="file" id="ava" name="ava">
+            </p>
+            <p>
+                <label for="level">Сложность</label>
+                <br>
+                <input type="range" id="level" name="level">
+            </p>
+            <p>
+                <fieldset>
+                    <legend>Выберите любый продукт</legend>
+
+                    <input type="radio" value="яблоко" name="product" id="apple">
+                    <label for="apple">Яблоко</label>
+                    <br>
+
+                    <input type="radio" value="груша" name="product" id="pear">
+                    <label for="pear">Груша</label>
+                    <br>
+
+                    <input type="radio" value="помидор" name="product" id="tomato">
+                    <label for="tomato">Помидор</label>
+                </fieldset>
+            </p>
+
+            <p>
+                <label for="animal">Выберите любимое животное</label>
+                <br>
+                <select id="animal" name="animal">
+                    <option value="croco">Крокодил</option>
+                    <option value="котик">Котик</option>
+                    <option value="dog">Собачка</option>
+                    <option value="4">Попугай</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="comment">Введите комментарий</label>
+                <br>
+                <textarea id="comment" name="comment" cols="50" rows="10"></textarea>
+            </p>
+            
+            
+            
+            
+            <button type="submit">Отправить</button>
+        </form>
+        
+    </body>
+</html>
