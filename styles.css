@@ -1,0 +1,137 @@
+
+body{
+    background-color: #f0f0f0;
+}
+
+.block-1 {
+    background-color: #ffffff;
+}
+
+.nav {
+    background-color: #8ff2ff;
+    height: 150px;
+    width: 60%;
+    padding: 20px;
+    padding-left: 25px;
+    padding-bottom: 0px;
+    border: #000000 solid 2px;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.cool-text {
+    color: red;
+    font-family: "Shizuru", system-ui;
+    font-weight: 1000;
+}
+
+.test-1 {
+    background-color: green;
+}
+
+h1 {
+    font-family: "Playwrite HU", cursive;
+    font-size: 2.8em;
+}
+
+h2 {
+    font-family: "Playwrite HU", cursive;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.parallax {
+    height: 200px;
+    background-image: url('https://oboitd.ru/images/goods/big/20200125110231_Priroda_10-344.jpg');
+}
+
+.content {
+    background: white;
+    width: 70%;
+    padding: 25px;
+}
+
+.dop {
+    background: white;
+    width: 20%;
+    height: 150px;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between; 
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.ul-nav {
+    display: flex;
+    padding: 0;
+    width: 100%;
+    justify-content: space-around;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    background: rgb(0, 0, 0);
+    width: 100%;
+    height: 200px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.col-1, .col-2, .col-3 {
+    height: 100%; 
+    width: 25%;
+}
+
+body {
+    margin: 0;
+}
+
+.li-nav {
+    background: #9999ff;
+    width: 20%;   
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.li-nav:hover {
+    background: #7979ea;
+}
+
+
+@media (max-width: 700px) {
+    .body {
+        background: red;
+    }
+}
+
+@media (max-width: 1000px) {
+    .dop {
+        display: none;
+    }
+}
+
+@media (min-width: 1001px) {
+    body {
+        background-color: #ba2828;
+    }
+}
